@@ -5,6 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Petroil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/Tailwind.config.js"></script>
+    <link rel="stylesheet" href="css/all.min.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- ============
+    Header part start
+================== -->
+    <header
+      class="bg-black justify-center py-4 border-b-2 border-solid border-[yellow]"
+    >
+      <div class="max-w-container mx-auto">
+        <div class="flex jusyify-between">
+          <div class="w-2/4 h-[40]">
+            <a class="text-white mr-[50px]" href="mailto:mail@yourcompany.com"
+              ><i class="fa-solid fa-envelope"></i> mail@yourcompany.com</a
+            >
+            <a
+              class="text-white relative after:absolute after:top-0 after:left-[-25px] after:h-full after:w-0.5 after:content-[''] after:bg-[#546975]"
+              href="tel:896 120 5889"
+              ><i class="fa-solid fa-phone"></i> +896 120 5889 (Toll free)</a
+            >
+          </div>
+          <div class="w-1/2 flex justify-end text-right mt-[2px]">
+            <ul class="flex text-white gap-[20px]">
+              <li>
+                <i class="mr-2 fa-brands fa-facebook-f"></i>
+              </li>
+              <li>
+                <i class="mr-2 fa-brands fa-twitter"></i>
+              </li>
+              <li>
+                <i class="mr-2 fa-brands fa-linkedin"></i>
+              </li>
+              <li>
+                <i class="mr-2 fa-brands fa-instagram"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ============
+Header part end
+================== -->
+    <!-- ============
+navbar part start
+================== -->
+    <nav class="bg-offred">
+      <div class="max-w-container mx-auto">
+        <div class="flex justify-between">
+          <div class="w-[20%]">
+            <picture>
+              <img src="images/Logo.png" alt="" loading="lazy" />
+            </picture>
+          </div>
+          <div class="w-[60%] flex justify-center">
+            <ul class="flex text-white gap-[30px] items-center">
+              <li class="hover:text-yellow duration-[o.5s]">
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">service</a>
+              </li>
+              <li>
+                <a href="#">gallery</a>
+              </li>
+              <li>
+                <a href="#">Bloge</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-[20%] flex items-center justify-end">
+            <button
+              class="hover:bg-yellow hover:border-yellow hover:text-red duration-[0.5s] border-white border-2 py-[8px] px-[20px] text-white text font-semibold"
+            >
+              <span>CONTACT</span>
+        </div>
+      </div>
+    </nav>
+    <!-- ============
+navbar part end
+================== -->
+  </body>
 </html>
